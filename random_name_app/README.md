@@ -1,16 +1,47 @@
-# random_name_app
+# Flutter Name Generator App
 
-A new Flutter project.
+A simple Flutter project I built while learning Flutter.
+The app generates random name combinations using the [`english_words`](https://pub.dev/packages/english_words) package and lets you save/remove favorites.
 
-## Getting Started
+It uses the **Provider** package for state management and demonstrates navigation with a **NavigationRail** layout.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
+- Generate random name ideas
+- Save/remove favorite names
+- View all saved favorites in a separate tab
+- Responsive layout with `NavigationRail` (switches between compact/extended mode depending on screen width)
+- Demonstrates `Provider` for state management
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Running the App
+
+1. **Install Flutter**
+   Follow the [official installation guide](https://docs.flutter.dev/get-started/install) for your platform (Windows, macOS, Linux).
+
+2. **Check Flutter setup**
+   Run the following command to verify that Flutter and your environment are configured correctly:
+   ```bash
+   flutter doctor
+    ```
+
+3. **Clone The Repository**
+    Run the following command on the CLI
+    ```bash
+    git clone https://github.com/KhangNLe/LearningFlutter.git
+    cd LearningFlutter/random_name_app
+    ```
+
+4. **Get Dependencies**
+    Run
+    ```bash
+    flutter pub get --no-example
+    ```
+
+5. **Run The App**
+    Run
+    ```bash
+    flutter run
+    ```
